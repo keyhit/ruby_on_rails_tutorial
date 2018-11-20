@@ -22,4 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-# ruby_on_rails_tutorial
+
+# Ruby on Rails Tutorial
+
+## "hello, world!"
+## "goodbye"
