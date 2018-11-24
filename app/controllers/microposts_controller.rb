@@ -14,7 +14,9 @@ class MicropostsController < ApplicationController
 
   # GET /microposts/new
   def new
-    @micropost = Micropost.new
+    # binding.pry
+    @user = User.find(params[:user_id])
+    @micropost = @user.microposts.new
   end
 
   # GET /microposts/1/edit
